@@ -8,4 +8,3 @@ board.each do |num|
 end
 return counter
 end
-
