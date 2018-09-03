@@ -1,8 +1,10 @@
 def turn_count board
 number = 0
-if number == 9
-  board = board + 1
+board.each do |num|
+  counter = 0
+  if (num = "X" , num ="O")
+    counter += 1
+  end
 
 end
-
 end
