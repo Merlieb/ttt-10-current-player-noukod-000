@@ -11,5 +11,4 @@ end
 
 def current_player(board)
   turn_count(board)%2 == "X" || "O"
-return turn_count
 end
